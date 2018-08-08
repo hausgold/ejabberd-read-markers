@@ -1,0 +1,3 @@
+modules:
+  mod_read_markers:
+    db_type: sql

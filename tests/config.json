@@ -1,0 +1,12 @@
+{
+  "hostname": "jabber.local",
+  "jid": "admin@jabber.local",
+  "password": "defaultpw",
+  "transport": "websocket",
+  "wsURL": "ws://jabber.local/ws",
+  "room": "test@conference.jabber.local",
+  "users": ["bob", "alice"],
+  "match": "read-markers",
+  "skipUnrelated": true,
+  "debug": false
+}
