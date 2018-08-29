@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
-  <!--Created by yEd 3.18.1-->
+  <!--Created by yEd 3.18.1.1-->
   <key attr.name="Beschreibung" attr.type="string" for="graph" id="d0"/>
   <key for="port" id="d1" yfiles.type="portgraphics"/>
   <key for="port" id="d2" yfiles.type="portgeometry"/>
@@ -55,7 +55,7 @@
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="52.75320442804423" width="266.86669225092254" x="-298.7714526602125" y="493.32213754731885"/>
-              <y:Fill color="#C0C0C0" transparent="false"/>
+              <y:Fill color="#E5F0F8" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="157.99609375" x="54.43529925046127" y="10.407852214022057">Multi user conversation
 module (mod_muc_room)<y:LabelModel>
@@ -73,7 +73,7 @@ module (mod_muc_room)<y:LabelModel>
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="52.75320442804423" width="266.86669225092254" x="10.758369349164695" y="493.32213754731885"/>
-              <y:Fill color="#C0C0C0" transparent="false"/>
+              <y:Fill color="#E5F0F8" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="144.689453125" x="61.08861956296127" y="10.407852214022057">Multi user conversation
 module (mod_muc)<y:LabelModel>
@@ -91,7 +91,7 @@ module (mod_muc)<y:LabelModel>
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="52.75320442804423" width="266.86669225092254" x="10.758369349164695" y="725.0864591332393"/>
-              <y:Fill color="#C0C0C0" transparent="false"/>
+              <y:Fill color="#E5F0F8" transparent="false"/>
               <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="122.86328125" x="72.00170550046127" y="17.392227214022114">ejabberd_sql library<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
@@ -110,9 +110,9 @@ module (mod_muc)<y:LabelModel>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="64.42151439114389" width="266.86669225092254" x="-298.7714526602125" y="602.3491662369579"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#0078BE" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="86.6640625" x="90.10131487546127" y="16.242007195571887">Read Markers
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="86.6640625" x="90.10131487546127" y="16.242007195571887">Read Markers
 module<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -128,7 +128,7 @@ module<y:LabelModel>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="15.998028044280431" width="15.998028044280431" x="-390.352896202648" y="820.9866391143912"/>
-          <y:Fill color="#FFCC00" transparent="false"/>
+          <y:Fill color="#0078BE" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="98.7578125" x="23.947853897601533" y="-0.9853609778597274">Custom module<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
@@ -145,7 +145,7 @@ module<y:LabelModel>
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="15.998028044280431" width="15.998028044280431" x="-250.09649116744066" y="820.9866391143914"/>
-          <y:Fill color="#C0C0C0" transparent="false"/>
+          <y:Fill color="#E5F0F8" transparent="false"/>
           <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="87.30859375" x="23.947853897601533" y="-0.9853609778597274">ejabberd core<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
