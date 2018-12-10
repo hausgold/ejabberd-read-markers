@@ -1,4 +1,4 @@
-![ejabberd Read Markers](doc/assets/project.png)
+![ejabberd Read Markers](doc/assets/project.svg)
 
 [![Build Status](https://api.travis-ci.com/hausgold/ejabberd-read-markers.svg?token=4XcyqxxmkyBSSV3wWRt7&branch=master)](https://travis-ci.com/hausgold/ejabberd-read-markers)
 
