@@ -6,6 +6,7 @@ COPY config/supervisor/* /etc/supervisor/conf.d/
 
 # Install system packages and the ruby bundles
 RUN rm -rf /var/lib/apt/lists/* && \
+  sed -Ei 's/^# deb-src /deb-src /' /etc/apt/sources.list && \
   apt-get update -yqqq && \
   apt-get install -y \
     build-essential libicu-dev locales sudo curl wget \
