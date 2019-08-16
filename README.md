@@ -90,21 +90,37 @@ case you want to shut this thing down use `make stop`.
 
 #### mDNS host configuration
 
-If you running Ubuntu, everything should be in place out of the box. When
-you however find yourself unable to resolve the domains, read on.
+If you running Ubuntu/Debian, all required packages should be in place out of
+the box. On older versions (Ubuntu < 18.10, Debian < 10) the configuration is
+also fine out of the box. When you however find yourself unable to resolve the
+domains or if you are a lucky user of newer Ubuntu/Debian versions, read on.
 
 **Heads up:** This is the Arch Linux way. (package and service names may
 differ, config is the same) Install the `nss-mdns` and `avahi` packages, enable
-and start the `avahi-daemon.service`. Then, edit the file /etc/nsswitch.conf
+and start the `avahi-daemon.service`. Then, edit the file `/etc/nsswitch.conf`
 and change the hosts line like this:
 
 ```bash
-hosts: ... mdns4_minimal [NOTFOUND=return] resolve [!UNAVAIL=return] dns ...
+hosts: ... mdns4 [NOTFOUND=return] resolve [!UNAVAIL=return] dns ...
 ```
+
+Afterwards create (or overwrite) the `/etc/mdns.allow` file when not yet
+present with the following content:
+
+```bash
+.local.
+.local
+```
+
+This is the regular way for nss-mdns > 0.10 package versions (the
+default now). If you use a system with 0.10 or lower take care of using
+`mdns4_minimal` instead of `mdns4` on the `/etc/nsswitch.conf` file and skip
+the creation of the `/etc/mdns.allow` file.
 
 **Further readings**
 * Archlinux howto: https://wiki.archlinux.org/index.php/avahi
 * Ubuntu/Debian howto: https://wiki.ubuntuusers.de/Avahi/
+* Further detail on nss-mdns: https://github.com/lathiat/nss-mdns
 
 ### Test suite
 
