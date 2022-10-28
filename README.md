@@ -2,6 +2,14 @@
 
 [![Build Status](https://api.travis-ci.com/hausgold/ejabberd-read-markers.svg?token=4XcyqxxmkyBSSV3wWRt7&branch=master)](https://travis-ci.com/hausgold/ejabberd-read-markers)
 
+---
+
+**Heads up!** This ejabberd module is no longer maintained. An alternative
+solution for you could be
+[ejabberd-unread](https://github.com/hausgold/ejabberd-unread).
+
+---
+
 This is a custom [ejabberd](https://www.ejabberd.im/) module which allows users
 to acknowledge/retrieve their last read message on a multi user conference.
 There is also an unseen counter per user per room which gets updated on new
